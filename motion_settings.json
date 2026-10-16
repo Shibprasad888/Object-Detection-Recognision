@@ -1,0 +1,10 @@
+{
+  "pixel_to_meter_ratio": 0.01,
+  "reference_object_size_m": 0.2,
+  "reference_object_height_px": 100.0,
+  "minimum_safe_distance": 1.5,
+  "maximum_prediction_time": 3.0,
+  "speed_smoothing_window": 5,
+  "distance_threshold": 2.5,
+  "trail_length": 30
+}

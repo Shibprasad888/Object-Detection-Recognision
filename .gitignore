@@ -1,0 +1,21 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases and generated output
+*.db
+*.db-journal
+logs/
+recordings/
+captures/
+sessions/
+reports/
+
+# macOS and editor files
+.DS_Store
+.idea/
+.vscode/

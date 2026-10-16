@@ -1,0 +1,84 @@
+{
+  "app": {
+    "name": "Object Detection & Recognition",
+    "version": "1.0.0",
+    "build": "alpha-1",
+    "language": "en",
+    "theme": "dark",
+    "window": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "model": "yolov8n.pt",
+  "confidence_threshold": 0.5,
+  "image_size": 640,
+  "tracker": "bytetrack.yaml",
+  "recording_quality": 28,
+  "video_codec": "mp4v",
+  "output_paths": {
+    "recordings": "/Users/shiv/Documents/Axid/NIT/Object Detection/recordings",
+    "captures": "/Users/shiv/Documents/Axid/NIT/Object Detection/captures",
+    "reports": "/Users/shiv/Documents/Axid/NIT/Object Detection/reports",
+    "logs": "/Users/shiv/Documents/Axid/NIT/Object Detection/logs",
+    "sessions": "/Users/shiv/Documents/Axid/NIT/Object Detection/sessions"
+  },
+  "dashboard_refresh_rate": 2.0,
+  "alert_settings": {},
+  "heatmap_settings": {
+    "enabled": true,
+    "opacity": 0.45
+  },
+  "camera_resolution": {
+    "width": 640,
+    "height": 480
+  },
+  "thread_count": 4,
+  "device": "cpu",
+  "logging": {
+    "level": "INFO",
+    "rotation_mb": 2
+  },
+  "cameras": [
+    {
+      "name": "Camera 1",
+      "source": 0,
+      "device": "cpu"
+    },
+    {
+      "name": "Camera 1",
+      "source": 0,
+      "device": "cpu"
+    },
+    {
+      "name": "Camera 1",
+      "source": 0,
+      "device": "cpu"
+    },
+    {
+      "name": "Camera 1",
+      "source": 0,
+      "device": "cpu"
+    },
+    {
+      "name": "Camera 1",
+      "source": 0,
+      "device": "cpu"
+    },
+    {
+      "name": "Camera 1",
+      "source": 0,
+      "device": "cpu"
+    },
+    {
+      "name": "Camera 1",
+      "source": 0,
+      "device": "cpu"
+    },
+    {
+      "name": "Camera 1",
+      "source": 0,
+      "device": "cpu"
+    }
+  ]
+}
